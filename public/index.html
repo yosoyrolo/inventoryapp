@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+
+      .imgInit {
+        width: 100px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Inventory</title>
+  </head>
+  <body onload="init()">
+    <img class="imgInit" src="./assets/Icon.svg" alt="box Logo" />
+  </body>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-storage.js"></script>
+
+  <script src="./js/fba.js"></script>
+
+  <script src="./js/index.js"></script>
+</html>
